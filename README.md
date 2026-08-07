@@ -52,34 +52,6 @@ The dataset contains daily transaction records with approximately 100,000 record
 
 ---
 
-# Project Structure
-
-```
-Azure-Databricks-ETL-Pipeline/
-
-│
-├── notebooks/
-│      01_Bronze_Ingestion.py
-│      02_Silver_Transformation.py
-│      03_Gold_Transformation.py
-│      Dashboard_SQL.sql
-│
-├── data/
-│      inputDataTest.csv
-│
-├── screenshots/
-│      bronze_table.png
-│      silver_table.png
-│      gold_tables.png
-│      dashboard.png
-│
-├── README.md
-│
-└── architecture.png
-```
-
----
-
 # ETL Pipeline
 
 ## Bronze Layer
@@ -316,10 +288,3 @@ The pipeline validates:
 - CI/CD pipeline using Azure DevOps or GitHub Actions.
 
 ---
-
-# Author
-
-Name: Saitajes
-
-Project:
-Azure Databricks Batch ETL Pipeline
